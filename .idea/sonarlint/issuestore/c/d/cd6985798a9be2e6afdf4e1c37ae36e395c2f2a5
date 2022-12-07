@@ -1,0 +1,30 @@
+
+E
+java:S37402"/Provide the parametrized type for this generic.(éÀ‡ë
+E
+java:S37406"/Provide the parametrized type for this generic.(´ïí 
+E
+java:S3740="/Provide the parametrized type for this generic.(¶³Ýû
+E
+java:S3740?"/Provide the parametrized type for this generic.(´ïí 
+J
+java:S3740G"/Provide the parametrized type for this generic.(ðöªÄùÿÿÿÿ
+E
+java:S3740J"/Provide the parametrized type for this generic.(´ïí 
+J
+java:S3740R"/Provide the parametrized type for this generic.(ò‘øÊüÿÿÿÿ
+E
+java:S3740U"/Provide the parametrized type for this generic.(´ïí 
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õðãžþÿÿÿÿ
+V
+java:S4684!"@Replace this persistent entity with a simple POJO or DTO object.(¾Ç§š
+<
+java:S1452!"&Remove usage of generic wildcard type.(¾Ç§š
+<
+java:S1452."&Remove usage of generic wildcard type.(®Ðüü
+<
+java:S1452;"&Remove usage of generic wildcard type.(Ï‰¶¸
+<
+java:S1452D"&Remove usage of generic wildcard type.(´¨ã
+<
+java:S1452O"&Remove usage of generic wildcard type.(Áí§µ

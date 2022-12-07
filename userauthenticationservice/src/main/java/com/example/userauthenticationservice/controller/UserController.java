@@ -21,7 +21,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-//@RequestMapping("/api/v1")
+@RequestMapping("/api/v2")
 public class UserController {
 
     private IUserService iUserService;
@@ -39,13 +39,13 @@ public class UserController {
         return new ResponseEntity<>(iUserService.saveUser(user), HttpStatus.CREATED);
     }
 
-    @GetMapping("/api/v1/fetch")
+    @GetMapping("/fetch")
     public ResponseEntity<?> fetch() {
         return new ResponseEntity<>(iUserService.getAllUsers(), HttpStatus.OK);
     }
 
 
-    @GetMapping("/api/v1/fetchById/{id}")
+    @GetMapping("/fetchById/{id}")
     public ResponseEntity<?> fetchById(@PathVariable int id) {
         return new ResponseEntity<>(iUserService.getByUserId(id), HttpStatus.OK);
     }
