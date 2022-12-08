@@ -58,6 +58,15 @@ services:
         environment:
           API_GATEWAY_PORT: 9000
 
+  eureka-service:
+    container_name: containerEureka
+    build: EurekaServer/
+    restart: always
+    networks:
+      - mynetwork
+    ports:
+      - 8761:8761
+
 
 networks:
   mynetwork:
