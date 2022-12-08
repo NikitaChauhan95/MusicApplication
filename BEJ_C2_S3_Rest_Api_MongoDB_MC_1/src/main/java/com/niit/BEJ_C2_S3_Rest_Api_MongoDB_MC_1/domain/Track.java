@@ -19,14 +19,20 @@ public class Track {
     private double trackRating;
     private Artist trackArtist;
 
+    private String userName;
+
+    private String password;
+
     public Track() {
     }
 
-    public Track(int trackId, String trackName, double trackRating, Artist trackArtist) {
+    public Track(int trackId, String trackName, double trackRating, Artist trackArtist, String userName, String password) {
         this.trackId = trackId;
         this.trackName = trackName;
         this.trackRating = trackRating;
         this.trackArtist = trackArtist;
+        this.userName = userName;
+        this.password = password;
     }
 
     public int getTrackId() {
@@ -61,6 +67,22 @@ public class Track {
         this.trackArtist = trackArtist;
     }
 
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     @Override
     public String toString() {
         return "Track{" +
@@ -68,6 +90,8 @@ public class Track {
                 ", trackName='" + trackName + '\'' +
                 ", trackRating=" + trackRating +
                 ", trackArtist=" + trackArtist +
+                ", userName='" + userName + '\'' +
+                ", password='" + password + '\'' +
                 '}';
     }
 }

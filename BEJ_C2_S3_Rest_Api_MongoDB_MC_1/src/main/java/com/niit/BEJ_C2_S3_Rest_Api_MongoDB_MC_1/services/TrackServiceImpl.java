@@ -10,6 +10,7 @@ package com.niit.BEJ_C2_S3_Rest_Api_MongoDB_MC_1.services;
 import com.niit.BEJ_C2_S3_Rest_Api_MongoDB_MC_1.domain.Track;
 import com.niit.BEJ_C2_S3_Rest_Api_MongoDB_MC_1.exception.TrackAlreadyExistsException;
 import com.niit.BEJ_C2_S3_Rest_Api_MongoDB_MC_1.exception.TrackDoesNotExistsException;
+import com.niit.BEJ_C2_S3_Rest_Api_MongoDB_MC_1.proxy.TrackProxy;
 import com.niit.BEJ_C2_S3_Rest_Api_MongoDB_MC_1.repository.TrackRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,14 +21,19 @@ import java.util.List;
 public class TrackServiceImpl implements ITrackService {
 
     private TrackRepository trackRepository;
-
+    private TrackProxy trackProxy;
     @Autowired
-    public TrackServiceImpl(TrackRepository trackRepository) {
+    public TrackServiceImpl(TrackRepository trackRepository, TrackProxy trackProxy) {
         this.trackRepository = trackRepository;
+        this.trackProxy = trackProxy;
     }
+
+
+
 
     @Override
     public Track saveTrackDetail(Track track) throws TrackAlreadyExistsException {
+        trackProxy.register(track);
         if (trackRepository.findById(track.getTrackId()).isPresent()) {
             throw new TrackAlreadyExistsException();
         }

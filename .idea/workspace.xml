@@ -4,37 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52743421-9d39-43d8-91a3-a62d98d7bed6" name="Changes" comment="refoematted the code">
-      <change afterPath="$PROJECT_DIR$/EurekaServer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/src/main/java/com/niit/EurekaServer/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14937fd74d14071da8a277df05e51ce543afd2dd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14937fd74d14071da8a277df05e51ce543afd2dd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d065bcd192524333a7be0b519045d219d658b86" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4386efa2d3ac46e6d0c2d8bb1951a8991c2c15c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50b610939d963767f1c574a3819241ddc81b8034" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/756c803b5a918211aa0fbbe553bfc5509d57b2f4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd6985798a9be2e6afdf4e1c37ae36e395c2f2a5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9865f8efc52d454b26254135dec46114b2ac0f1" beforeDir="false" />
+    <list default="true" id="52743421-9d39-43d8-91a3-a62d98d7bed6" name="Changes" comment="Checked with EurekaServerApplication">
+      <change afterPath="$PROJECT_DIR$/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/java/com/niit/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/proxy/TrackProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a456dd3579a35bce1ec19e21b9df3af5919c863" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6437dbd89977002b97232ec7153569c50d5ca342" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/java/com/niit/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/BejC2S3RestApiMongoDbMc1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/java/com/niit/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/BejC2S3RestApiMongoDbMc1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudApiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudApiGateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudApiGateway/src/main/java/com/niit/SpringCloudApiGateway/SpringCloudApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudApiGateway/src/main/java/com/niit/SpringCloudApiGateway/SpringCloudApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudApiGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudApiGateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userauthenticationservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userauthenticationservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userauthenticationservice/src/main/java/com/example/userauthenticationservice/UserauthenticationserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/userauthenticationservice/src/main/java/com/example/userauthenticationservice/UserauthenticationserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userauthenticationservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/userauthenticationservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/java/com/niit/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/domain/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/java/com/niit/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/domain/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/java/com/niit/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/services/TrackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/java/com/niit/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/services/TrackServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -153,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670396461480</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Checked with EurekaServerApplication">
+      <created>1670504515801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670504515801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,7 +158,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial connect" />
     <MESSAGE value="refoematted the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refoematted the code" />
+    <MESSAGE value="Checked with EurekaServerApplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checked with EurekaServerApplication" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MusicApplication$SpringCloudApiGatewayApplication.ic" NAME="SpringCloudApiGatewayApplication Coverage Results" MODIFIED="1670328731825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

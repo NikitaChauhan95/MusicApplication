@@ -170,10 +170,6 @@ quserauthenticationservice/src/main/java/com/example/userauthenticationservice/s
 ÅBEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/java/com/niit/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/exception/TrackDoesNotExistsException.java,e\3\e3c0841807c1ebaaf9a4c110ac232e7fcb5f545a
 ¶
 vBEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/java/com/niit/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/repository/TrackRepository.java,d\e\debb76c548c99b7dee594b3feb1c2ccd518943ff
-•
-uBEJ_C2_S3_Rest_Api_MongoDB_MC_1/src/main/java/com/niit/BEJ_C2_S3_Rest_Api_MongoDB_MC_1/services/TrackServiceImpl.java,6\4\6437dbd89977002b97232ec7153569c50d5ca342
-é
-^userauthenticationservice/src/main/java/com/example/userauthenticationservice/domain/User.java,4\a\4a456dd3579a35bce1ec19e21b9df3af5919c863
 ¢
 ruserauthenticationservice/src/main/java/com/example/userauthenticationservice/exception/UserNotFoundException.java,7\8\78b1d4468d04be9eec3775e25c0f84782a28fe73
 ú
@@ -364,7 +360,5 @@ w
 G.idea/sonarlint/issuestore/7/5/751f31e72d77be3c044a73e707873f0b034828cf,3\9\39cd728330fc4168984bcc616b89cf0bb4930629
 P
  SpringCloudApiGateway/Dockerfile,8\0\80a1a3ad9a2a430f61a20a7d1a2026608130b88d
-ú
-luserauthenticationservice/src/main/java/com/example/userauthenticationservice/controller/UserController.java,4\3\4348c745467dad800d16c9df053767e50ce9416f
 Z
 *BEJ_C2_S3_Rest_Api_MongoDB_MC_1/Dockerfile,0\2\02008e78c80122eb80bda3fbb0e3ba7b03b8614c
